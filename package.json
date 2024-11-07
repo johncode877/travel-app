@@ -1,0 +1,22 @@
+{
+  "name": "travel-app",
+  "version": "1.0.0",
+  "description": "1. Iniciar proyecto npm:",
+  "main": "public/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tw:build": "tailwindcss -i ./src/css/tailwind.css -o ./public/css/tailwind.css --watch"
+  },
+  "author": "John Sevillano",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.15",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.14"
+  },
+  "dependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/forms": "^0.5.9"
+  }
+}
