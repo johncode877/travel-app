@@ -23,7 +23,8 @@
                     <input type="search" placeholder="San Francisco"
                         class="outline outline-none p-3 rounded-full shadow-sm transition duration-300 focus-within:shadow-sm focus:ring-2 focus:w-11/12">
 
-                    <button class="w-48 text-primary rounded-full text-lg font-semibold p-4 shadow-sm bg-white transition-all duration-500 ease-in-out hover:bg-primary hover:text-white transform hover:-translate-y-1 hover:scale-110">
+                    <button
+                        class="w-48 text-primary rounded-full text-lg font-semibold p-4 shadow-sm bg-white transition-all duration-500 ease-in-out hover:bg-primary hover:text-white transform hover:-translate-y-1 hover:scale-110">
                         Explorar
                     </button>
                 </div>
@@ -36,7 +37,8 @@
         </div>
         <div class="p-6" id="recomendados">
             <p class="text-3xl font-semibold text-primary">Recomendados</p>
-            <div class="w-auto h-72 items-center mt-6 overflow-x-auto overscroll-x-contain flex space-x-6 overflow-y-hidden">
+            <div
+                class="w-auto h-72 items-center mt-6 overflow-x-auto overscroll-x-contain flex space-x-6 overflow-y-hidden">
 
                 <div class="Card">
                     <div class="w-full h-3/5 rounded-t-lg bg-norway bg-cover"></div>
@@ -60,14 +62,37 @@
 
                 <div class="Card">
                     <div class="w-full h-3/5 rounded-t-lg bg-cover bg-yosemite"></div>
-                    <div class="bg-secondary w-full h-2/5 rounded-b-lg">                       
+                    <div class="bg-secondary w-full h-2/5 rounded-b-lg">
                         <p class="text-white font-bold px-4 py-2 text-xl">Yosemite</p>
                         <p class="text-white text-md px-4">Una pausa del mundo</p>
                     </div>
                 </div>
 
             </div>
-            <div id="rentas_destacadas"></div>
+            <div class="px-2 h-full w-full" id="rentas_destacadas">
+                <p class="text-3xl text-primary font-semibold pb-6 mt-6">Rentas Destacadas</p>
+                <div class="w-full h-full flex flex-col space-y-6 items-center">
+                    <div class="w-full h-96 bg-chicago bg-cover rounded-xl">
+                        <p class="CardTitle">Chicago</p>
+                        <p class="text-sm pl-8 text-white mr-24">2 rooms, bathroom and kitchen.</p>
+                    </div>
+                    <div class="w-full h-96 bg-LA bg-cover rounded-xl">
+                        <p class="CardTitle">Los Angeles</p>
+                        <p class="text-sm pl-8 text-white mr-24">4 rooms, 3 bathrooms, kitchen and private pool.</p>
+                    </div>
+                    <div class="w-full h-96 bg-miami bg-cover rounded-xl">
+                        <p class="CardTitle">Miami</p>
+                        <p class="text-sm pl-8 text-white mr-24">3 rooms, 2 bathrooms, kitchen and amazing sea view.</p>
+                    </div>
+                    <div class="w-full h-96 bg-bali bg-cover rounded-xl">
+                        <p class="CardTitle">Bali</p>
+                        <p class="text-sm pl-8 text-white mr-24">2 rooms, 2 bathrooms Kitchen and private pool</p>
+                    </div>
+
+
+
+                </div>
+            </div>
 
     </section>
     <footer>
